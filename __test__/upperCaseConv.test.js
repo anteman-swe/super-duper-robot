@@ -1,7 +1,9 @@
-const { upperCaseConv } = require('../upperCaseConv.js')
+import { upperCaseConv } from '../upperCaseConv.js'
 
-lowerCaseArg = "anteman-swe";
-upperCaseArg = "ANTEMAN-SWE";
+const lowerCaseArg = "anteman-swe";
+const upperCaseArg = "ANTEMAN-SWE";
+
+// Run several tests on function using arguments above for the first one
 describe('upperCaseConv', () => {
     //
     test(`Should convert ${lowerCaseArg} to upper case`, () => {

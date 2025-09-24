@@ -1,4 +1,4 @@
-function upperCaseConv(text) {
+export function upperCaseConv(text) {
     // If it is not a string that is being input, throw Error
     if(typeof text !== 'string'){
         throw new Error('Input is not a string!');
@@ -7,6 +7,6 @@ function upperCaseConv(text) {
     return text.toUpperCase();
 }
 
-module.exports = {
-    upperCaseConv
-}
+// module.exports = {
+//     upperCaseConv
+// }

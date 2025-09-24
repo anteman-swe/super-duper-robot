@@ -1,4 +1,6 @@
-const { upperCaseConv } = require('./upperCaseConv.js'); 
+// require('./upperCaseConv.js');
+import { upperCaseConv } from './upperCaseConv.js';
+// const { upperCaseConv } = require('./upperCaseConv.js'); 
 
 const inputField = document.getElementById('inputField');
 const inputButton = document.getElementById('inputButton');
