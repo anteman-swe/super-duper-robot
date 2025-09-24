@@ -1,0 +1,32 @@
+{
+  "name": "super-duper-robot",
+  "version": "0.0.1",
+  "description": "Tryout with Jest testing, for TDD",
+  "keywords": [
+    "Jest",
+    "testing"
+  ],
+  "homepage": "https://github.com/anteman-swe/super-duper-robot#readme",
+  "bugs": {
+    "url": "https://github.com/anteman-swe/super-duper-robot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anteman-swe/super-duper-robot.git"
+  },
+  "license": "ISC",
+  "author": "Anders Eriksson",
+  "type": "module",
+  "main": "middleMan.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "jest-environment-jsdom": "^30.1.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+
+}
