@@ -25,4 +25,6 @@ Använd Jest för att skapa en unit-test som kontrollerar att funktionen faktisk
 
  
 
-För att få VG måste koden lämnas in som en länk till ett Github-repo och testet startas med kommandot npm run test.
+För att få VG måste koden lämnas in som en länk till ett Github-repo och testet startas med kommandot npm run test.  
+
+**klona repot och kom ihåg att köra npm init som första åtgärd. Då installeras alla beroenden som inte har synkroniserats i mitt repo då node_modules ligger i min .gitignore**
